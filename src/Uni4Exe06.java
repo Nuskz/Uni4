@@ -11,17 +11,15 @@ public class Uni4Exe06 {
 
         genero = genero.trim().toUpperCase();
 
-        if( genero.equals("M")){
+        if (genero.equals("M")) {
             System.out.println("Masculino");
-        } else if( genero.equals("F")){
+        } else if (genero.equals("F")) {
             System.out.println("Feminino");
-        } else if(genero.equals("I") ){
+        } else if (genero.equals("I")) {
             System.out.println("Não informado");
-        } else{
+        } else {
             System.out.println("Entrada Incorreta");
         }
-
-
 
     }
 }
