@@ -40,9 +40,11 @@ public class Uni4Exe27 {
 
                 System.out.println("Área do circulo = " + Math.PI * Math.pow(raio, 2));
                 break;
-
+            
+                default:
+                System.out.println("Escolha apenas uma das opções acima.");
         }
-        //fechar Scanner
+        // fechar Scanner
         teclado.close();
     }
 }
