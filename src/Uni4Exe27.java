@@ -6,12 +6,12 @@ public class Uni4Exe27 {
         Scanner teclado = new Scanner(System.in);
 
         System.out.println(
-                "Escolha uma opção:\n Calcular a área de um:\n (1)Triângulo \n (2)Quadrado\n (3)Retângulo\n (4)Circulo");
-        int opcao = teclado.nextInt();
+                "Escolha uma opção:\n Calcular a área de um:\n (T)riângulo \n (Q)uadrado\n (R)etângulo\n (C)irculo");
+        char opcao = teclado.next().toUpperCase().charAt(0);
 
         switch (opcao) {
             // Triângulo
-            case 1:
+            case 'T':
                 System.out.println("Digite a base e a altura do triângulo: ");
                 double base = teclado.nextDouble();
                 double altura = teclado.nextDouble();
@@ -19,14 +19,14 @@ public class Uni4Exe27 {
                 System.out.println("Área do triângulo = " + (base * altura) / 2);
                 break;
             // Quadrado
-            case 2:
+            case 'Q':
                 System.out.println("Digite o lado:");
                 double lado = teclado.nextDouble();
 
                 System.out.println("Área do quadrado = " + lado * lado);
                 break;
             // Retângulo
-            case 3:
+            case 'R':
                 System.out.println("Digite a base e a altura do retângulo: ");
                 double b = teclado.nextDouble();
                 double h = teclado.nextDouble();
@@ -34,7 +34,7 @@ public class Uni4Exe27 {
                 System.out.println("Área do retângulo = " + b * h);
                 break;
             // Cirulo
-            case 4:
+            case 'C':
                 System.out.println("Digite o raio:");
                 double raio = teclado.nextDouble();
 
