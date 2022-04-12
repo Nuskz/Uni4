@@ -20,6 +20,13 @@ public class Uni4Exe22 {
             // Licenciatura da computacao
             case 2:
                 System.out.println("Licenciado em Computação");
+                break;
+            // Sistemas de Informação    
+            case 3:
+                System.out.println("Bacharel em Sistemas da Informação");
+                break;
+            default:
+                System.out.println("Essa opção não existe");
         }
 
     }
