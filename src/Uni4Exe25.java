@@ -7,12 +7,13 @@ public class Uni4Exe25 {
         System.out.println(
                 "Escolha uma das opções:\n 1 - Soma de dois números\n 2 - Diferença entre dois números\n 3 - Produto entre dois números \n 4 - Divisão entre dois números (o denominador não pode ser zero");
         int opcao = teclado.nextInt();
-
+        // ERROR
         if (opcao < 1 || opcao > 4) {
             teclado.close();
             throw new Error("Algo de errado não está certo");
         }
-
+        // FIM ERROR
+       
         System.out.println("Agora informe o primeiro número: ");
         double numeroUm = teclado.nextDouble();
 
