@@ -14,7 +14,7 @@ public class Uni4Exe25 {
         }
         // FIM ERROR
        
-        System.out.println("Agora informe o primeiro número: ");
+        System.out.println("Agora informe o primeiro número:  ");
         double numeroUm = teclado.nextDouble();
 
         System.out.println("Agora informe o segundo número: ");
