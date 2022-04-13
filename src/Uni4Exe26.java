@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Uni4Exe27 {
+public class Uni4Exe26 {
     public static void main(String[] args) {
         // Scanner
         Scanner teclado = new Scanner(System.in);
