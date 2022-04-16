@@ -14,13 +14,12 @@ public class Uni4Exe01 {
         double salarioTotal = horasMes * horasValor;
         // fechar scanner
         teclado.close();
-        //Se horasMes >160
-        if(horasMes > 160 ){
+        // Se horasMes >160
+        if (horasMes > 160) {
             double salarioExtra = (horasMes - 160) * (horasValor / 2);
-             salarioTotal = salarioTotal + salarioExtra;
+            salarioTotal = salarioTotal + salarioExtra;
         }
         System.out.println("O salário total é: " + salarioTotal);
     }
-
 
 }
